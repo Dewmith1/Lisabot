@@ -81,7 +81,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🔴Subscribe", url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA"),
-        InlineKeyboardButton(text="🌺About", callback_data="aboutmenu_"),
+        InlineKeyboardButton(text="🌺About", callback_data="aboutmanu_"),
     ],
     [
         InlineKeyboardButton(
