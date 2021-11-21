@@ -72,7 +72,7 @@ hit /help to Find my list of available commands 🕹
 buttons = [
      [
         InlineKeyboardButton(
-            text="➕ Add Alexia🌺 To Youre Group ➕", url="t.me/TheAlexiabot?startgroup=true"
+            text="🆘Help & commands⁉️", callback_data="help_back"
         ),
     ],
     [
@@ -81,7 +81,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🔴Subscribe", url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA"),
-        InlineKeyboardButton(text="❔ Help", callback_data="AnkiVector_about_callback"),
+        InlineKeyboardButton(text="🌺About", callback_data="aboutmenu_"),
     ],
     [
         InlineKeyboardButton(
