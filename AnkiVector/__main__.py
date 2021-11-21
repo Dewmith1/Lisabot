@@ -70,13 +70,18 @@ hit /help to Find my list of available commands 🕹
 """
 
 buttons = [
+     [
+        InlineKeyboardButton(
+            text="➕ Add Alexia🌺 To Youre Group ➕", url="t.me/TheAlexiabot?startgroup=true"
+        ),
+    ],
     [
         InlineKeyboardButton(text="🔄Updates", url="https://t.me/ankivectorUpdates"),
         InlineKeyboardButton(text="👥Support", url="https://t.me/AnkiSupport_Official"),
     ],
     [
-        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
+        InlineKeyboardButton(text="🔴Subscribe", url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA"),
+        InlineKeyboardButton(text="❔ Help", callback_data="AnkiVector_about_callback"),
     ],
     [
         InlineKeyboardButton(
@@ -105,7 +110,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them  [Sithija Dewmina](t.me/Its_Me_Sithija)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
