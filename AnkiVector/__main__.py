@@ -414,7 +414,7 @@ def AnkiVector_about_callback(update, context):
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
-            text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*
+            text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
             f"\n\n{dispatcher.bot.first_name}'s source code was developing by SITHIJA DEWMINA"
             f"\n\n Alexia bot was building with the help of many developer\n So the credit should be goes to them.
             f"\n\n ❤️Special thanks for\n  ♤ Damantha Jasinha.\n  ♤Tinura Deneth.\n  ♤Sadew Rukshan.\n  ♤Sadew Jayasekara.\n from owners of this bot, \n  ♧Sithija Dewmina.\n  ♧Gaming Lasith.
