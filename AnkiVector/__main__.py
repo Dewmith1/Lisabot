@@ -76,8 +76,8 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🔄Updates", url="https://t.me/lisaupdatess"),
-        InlineKeyboardButton(text="👥Support", url="https://t.me/lisabotupdates"),
+        InlineKeyboardButton(text="🔄Updates", url="https://t.me/CGSupdates"),
+        InlineKeyboardButton(text="👥Support", url="https://t.me/CGSupdates"),
     ],
     [
         InlineKeyboardButton(text="🔴Subscribe", url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA"),
