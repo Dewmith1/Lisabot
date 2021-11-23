@@ -64,9 +64,9 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-✨Hello There, I'm [Lisa💫](https://t.me/IMLALISAbot)
-A Powerfull group manager bot for manage your.
-hit /help to Find my list of available commands.
+HI I am 𝗟𝗜𝘀𝗮✨ I am a group management bot.
+You can manage your group for free from me and many more created by cgs official.
+𝙃𝙞𝙩 /help 𝙩𝙤 𝙛𝙞𝙣𝙙 𝙢𝙮 𝙡𝙞𝙨𝙩 𝙤𝙛 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 ✨✨
 """
 
 buttons = [
@@ -81,7 +81,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🔴Subscribe", url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA"),
-        InlineKeyboardButton(text="💫About", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="💫info&About", callback_data="aboutmanu_"),
     ],
     [
         InlineKeyboardButton(
