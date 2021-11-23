@@ -64,9 +64,9 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-✨Hello There, I'm Lisa[💫](https://telegra.ph/file/6f41565a6a3e51e917079.jpg)
+✨Hello There, I'm [Lisa💫](https://t.me/IMLALISAbot)
 A Powerfull group manager bot for manage your.
-hit /help to Find my list of available commands🔧
+hit /help to Find my list of available commands.
 """
 
 buttons = [
