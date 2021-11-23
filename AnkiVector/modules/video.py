@@ -43,7 +43,7 @@ from youtube_search import YoutubeSearch
 
 from JESongBot import Jebot as app
 
-@app.on_message(filters.command(["video"]))
+@register(pattern="^/video (.*)")
 async def vsong(pbot, message):
     ydl_opts = {
         'format':'best',
