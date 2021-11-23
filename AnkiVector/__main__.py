@@ -65,7 +65,9 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
 HI I am 𝗟𝗜𝘀𝗮✨ I am a group management bot.
-You can manage your group for free from me and many more created by cgs official.
+
+You can manage your group for free from me and many more created by [cgs official](https://t.me/CGSsupport).
+
 𝙃𝙞𝙩 /help 𝙩𝙤 𝙛𝙞𝙣𝙙 𝙢𝙮 𝙡𝙞𝙨𝙩 𝙤𝙛 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 ✨✨
 """
 
@@ -362,7 +364,7 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by [CGS-TEAM](https://t.me/CGSsupport).* "
+            text=f" Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by [CGS-TEAM](https://t.me/CGSsupport)."
             f"\n\n Join [LISA💫 Updates](https://t.me/lisabotupdates) To Know All Updates About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
@@ -417,7 +419,7 @@ def AnkiVector_about_callback(update, context):
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
             f"\n\n{dispatcher.bot.first_name}'s source code was developing by SITHIJA DEWMINA"
             f"\n\n LISA💫 bot was building with the help of many developer\n So the credit should be goes to them."
-            f"\n\n ❤️Special thanks for\n  ♤ Damantha Jasinha.\n ♤Sadew Rukshan.\n  ♤SIthija dewmina from owners of this bot, \n  💫KASHYAPA DEWMITH.\n"
+            f"\n\n ❤️Special thanks for\n  ♤ Damantha Jasinha.\n ♤Sadew Rukshan.\n  ♤SIthija dewmina, \n  💫KASHYAPA DEWMITH from owners this bot.\n"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
