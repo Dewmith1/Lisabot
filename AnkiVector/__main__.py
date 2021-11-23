@@ -64,9 +64,9 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-✨Hello There, I'm [Alexia🌺](https://t.me/TheAlexiabot)
+✨Hello There, I'm Lisa[💫](https://telegra.ph/file/6f41565a6a3e51e917079.jpg)
 A Powerfull group manager bot for manage your.
-hit /help to Find my list of available commands 🕹
+hit /help to Find my list of available commands🔧
 """
 
 buttons = [
@@ -76,33 +76,33 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🔄Updates", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="👥Support", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="🔄Updates", url="https://t.me/lisaupdatess"),
+        InlineKeyboardButton(text="👥Support", url="https://t.me/lisabotupdates"),
     ],
     [
         InlineKeyboardButton(text="🔴Subscribe", url="https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA"),
-        InlineKeyboardButton(text="🌺About", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="💫About", callback_data="aboutmanu_"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Alexia🌺 To Youre Group ➕", url="t.me/TheAlexiabot?startgroup=true"
+            text="➕ Add Lisa💫 To Youre Group ➕", url="t.me/IMLALISAbot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_STICKER = "CAACAgUAAxkBAAIBkmGZvonAzyq9hmnyuyph8S59Wr4FAAKCBQACq5fAVLeXbjFSvNQ2IgQ"
+ANKIVECTOR_STICKER = "CAACAgUAAx0CXCc8FgACDoNhm6kjXmpQyxHk0GPVBWB9-9fZNQAC0gQAAjva2VSG5zOLtCEpmSIE"
 
 HELP_STRINGS = f"""
 *Main Commands :* 🤖
 Hey,
 Use this commands to know more about my functions👇
-🌺 /start: Starts me! You've probably already used this.
-🌺 /help: Click this, I'll let you know about myself!
-🌺 /donate: You can support my creater using this command.
-🌺 /settings: 
-   🌺 in PM: will send you your settings for all supported modules.
-   🌺 in a Group: will redirect you to pm, with all that chat's settings.
+💫 /start: Starts me! You've probably already used this.
+💫 /help: Click this, I'll let you know about myself!
+💫 /donate: You can support my creater using this command.
+💫 /settings: 
+   💫 in PM: will send you your settings for all supported modules.
+   💫 in a Group: will redirect you to pm, with all that chat's settings.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -110,8 +110,8 @@ Use this commands to know more about my functions👇
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-You can subscribe [youtube channel](https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA) of maintainer as donate,
-Support them \n Maintainer- [Sithija Dewmina](t.me/Its_Me_Sithija)"""
+You can subscribe our [Telegram channel](https://t.me/CGSupdates) of maintainer as donate,
+Support them \n Maintainer- [Kashyapa Dewmith](t.me/IMkashyapaa)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -300,7 +300,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*🌺♤ Help  for  {}  module ♤🌺*\n".format(
+                "*💫♤ Help  for  {}  module 💫*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -362,8 +362,8 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Alexia Updates.* "
-            f"\n\n Join [Alexia Updates](https://t.me/AlexiabotUpdats) To Know All Updates About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by [CGS-TEAM](https://t.me/CGSsupport).* "
+            f"\n\n Join [LISA💫 Updates](https://t.me/lisabotupdates) To Know All Updates About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -416,8 +416,8 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
             f"\n\n{dispatcher.bot.first_name}'s source code was developing by SITHIJA DEWMINA"
-            f"\n\n Alexia bot was building with the help of many developer\n So the credit should be goes to them."
-            f"\n\n ❤️Special thanks for\n  ♤ Damantha Jasinha.\n  ♤Tinura Deneth.\n  ♤Sadew Rukshan.\n  ♤Sadew Jayasekara.\n from owners of this bot, \n  ♧Sithija Dewmina.\n  ♧Gaming Lasith."
+            f"\n\n LISA💫 bot was building with the help of many developer\n So the credit should be goes to them."
+            f"\n\n ❤️Special thanks for\n  ♤ Damantha Jasinha.\n ♤Sadew Rukshan.\n  ♤SIthija dewmina from owners of this bot, \n  💫KASHYAPA DEWMITH.\n"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -473,12 +473,12 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
-            f"\n🌺 We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n🌺 Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n🌺 If you need to know anything about \n  this bot, Go @{SUPPORT_CHAT}."
-            f"\n🌺 If you asking nonsense in Support \n  Chat, you will get warned/banned."
-            f"\n🌺 All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n🌺 We always thinking the protection of your group."
+            f"\n💫 We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
+            f"\n💫 Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
+            f"\n💫 If you need to know anything about \n  this bot, Go @{SUPPORT_CHAT}."
+            f"\n💫 If you asking nonsense in Support \n  Chat, you will get warned/banned."
+            f"\n💫 All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
+            f"\n💫 We always thinking the protection of your group."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
